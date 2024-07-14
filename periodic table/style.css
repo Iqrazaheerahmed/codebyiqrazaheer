@@ -1,0 +1,15 @@
+
+.a{
+    background-color : paleturquoise; 
+}
+.b{
+    background-color: rgb(255, 176, 202);
+}
+.c{
+    background-color:greenyellow ;
+}
+h1{
+    padding: 25px;
+    font-size: 30px;
+    font-family:  sans-serif;
+}

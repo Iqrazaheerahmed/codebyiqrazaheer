@@ -1,0 +1,249 @@
+*{    
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, ;
+    
+}
+body{
+    background-color: #ffffff;
+    color:rgba(1, 1, 34, 0.603);
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px ;
+    color: rgba(19, 19, 71, 0.603);
+    text-decoration: none;
+}
+.home{
+    color: orange;
+    text-decoration: underline;
+}
+.left{
+    background-color: white;
+    width: 45%;
+    height: 75px;
+    
+   
+    
+}
+.logo{
+    
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAA81BMVEX/////mTP/MzP/mzP/nTP/LDP/jjP/MDH/ejP/hzP/ZTP/NTP/lTP/TjP/RDP/gzP/kjP/JSX/VjP/ezP/lSX/IiL/Kyz/srL/9vT/bjP/7OT/gDP/ajP/dDP/lyz/kA7/4eH/wrb/op3/mYb/Y2b/VT//QDn/2dD/mpb/WlL/JQr/Fhj/gXv/MiP/6en/i4P/lY7/SEf/QCX/bV7/ysX/eWz/+vT/lkf/PS7/4Nb/vrH/0cb/tq3/Xlj/8vP/wJv/0tP/0r3/6db/zaL/oVP/xpT/uIb/qmv/277/qnb/rGL/yKn/oVn/9ef/1LD/4ND/t3ipmCB0AAAGbUlEQVR4nO2ceVvaQBDGCQmkEqAgISIWrG09Ix49RKu13rfi9/80zc4mIYEkBNTus/j+/jTgs/MyOzM7u9lMBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPTzeenL12/LK4zlb1+/LH0WPaD/zOra+oZdr1qWzrGsat3eWF9bFT2w/8XhZseuWtlhrKrd2TwUPby3p7G2Ylt6hAAc3bJX1hqiB/mmbG1vVIMC5DyCMlQ3trdED/TNON6xfQUcs43Z2ULrA6NVmJ01sr4SetXeORY92LfhaL/qCWAYhVqlqGmqh6YVK7WCYXgyVPePRA/3Ddhar3s+YMznFU1VBlE1JT9veL5Q/zN1E2KubrlzoFRThu33dVBqJXdOWPU50YN+XTZtdxbM5tV4BUgFNT/rzgh7U/SwX5HGLo8EufKMligAR5spcxWqu1OTJpsdi0fCVkQUiPQFrcWjo9Vpih7863DQoWCYK+XTOIHrCvkSiaB3DkQP/zXYciUoJITCCFdQCq4IU5Aetr7zlNgaRwFSocWT5HfpRTheplhgLKSfBx7aAhUL1rLsNeMPLsHH8SVwRPjIRfgh2oiXsVMnh55IAiYCfbu+I9qMl/CTSqPchBIwESgw2j9FGzI5xyssHuY+TSqBI8InJoK+Im9I2KxSeTy5BI4IVDhXt0WbMiknG8yRy8U0puYZUU+KZfZPNk5EGzMhu1QZzKQoDNT5MmMm6tEMVQm7oo2ZjCObysNUtZFBK6pofahgtOXsqewzNzAqaSSYYWbmYkrJChNI3xdtziT8rifYFYYHvmxM4FBb7Gn9t2iDJmCdVYjR7h35SyfkDxYWrXXRBo3PiZ3aDfgPnfsY91n+3D4RbdLY/GJuYKTJi4pG6S/BZYrMT6xfok0alz3WNUhXIapUEOfm412GqkW9syfaqDFZooiYpjZQtEJSRCSVKG/Ul0QbNSY0FUqpquRidmRFrZVknAxlPTEits3+jzxPU2FBNdvxjsCiol4WbdR4rNpJU8E0L+779pUoIqrd+wvTjP68OxlsuY4nzNVjV0um2f3bzOy1Q+bl5rVuJtO8VGJkoJWTZBtP2zHhoG0Wr3rsA74Gbo2YV7vUIzi4KkbNCR4Q5FpBr+sR2c4R4PrUTXC+BpT7mVxdt0+yd3M7LAMFDV2qUrHB1ksDhR8LAo/+JzwN3BpxQVW6ga8/3ZlhGaiG0Pdl2no7puog0BNpm92rs8AHzq48DahGNBy1in+D+2rN+4dQaMhThSBTS+2A0oK/bDbN25tAkdfsZwDeIeGzxjQfzh8D/+TssrvoO0OFEoNMG28/qaXuhUTzKeDDe08PAT/nPdNs3vOWth8wiN6dHzqpyS5Tf5l6B2VPg0X/742b2/BELw6umpkMvb4M5958oHWVVD2EuSgNGr3nwYCv1sgNPoSCJ8ufZ64MAxrIVCBEa3B/sThQAfEa0Qjn0La5eHE6pRo4PJ53h6N97pMaFMBJobFzQV4NzF7gUfOv4k8I3jLO9nOoU0dfBlPD43NbWg3CMVExK6Hcf3PV5jLQqjnrRURnLXkZTH6Np+t+bpQvJoZzI/3AF6eBBNnoXbf9BtKCOxVue8G0ePocyiDy5caBGsmd6Ne9vgysVg73EQO1cuZmKIPIVyMN1cquDMVnzwqmQZ6Kg4LrLt6ayYkY3eGlo3y1ctSayZWhe0+hwdGA14iGpxTX4Pj8woxYPEu4ZopeO3tz4u5pj2nAd5RL3gNnLjyG6uiQBvKtnWN7KN6cuD1V1AWKiH6N2D0cCgJ9ZOyhJPTSXBm4WcFdmISeqpS9tOSeKsFrxEKq9ruUPdVRvXVv1TyUO2I0kLG3PnqPxY2I6U6vyrnHMmqvbTAiJruBnHtto/ZcNTqXnu54gqx7rqP23iujNxn7SLr3PuIMhjp2RJTxDMaIszh8uZTyPL+sZ3ESz2S5q+Zauogo75mspLN5aole8E3nBRKfzUs8o1ljxB7CCusl8xnNpLO6/A3fVBJIfVZ3nDPb8Uh+ZjuzjbP7eIeDgXd5Mnini8C7fXjHk8C7vhlfhEnf+Z4GCdj1By95939KLkDAHRAZ3AXCwZ0wGdwNRGz9efd3RGVwVxiBO+MYuDuQgTskiXd/lyjn3d8p6/Le7xYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID3yT8SUajcLoPvNAAAAABJRU5ErkJggg==);
+  width: 10%;
+   height:14% ;
+    background-position: center;
+    position: fixed;
+} 
+    
+    
+    
+}
+.logo-img{
+     width: 90px;
+      padding-left: 0px;
+}
+.view{
+    width: 10%;
+    height: 75px;
+    text-align: right;
+    margin: 20px 50px;
+   
+}
+ 
+
+.btn{
+    background-color: white;
+    color:  rgba(1, 1, 34, 0.603);
+    margin-top: 20px 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 10px 10px;
+    border-color: orangered;
+    border-radius: 10px;
+    text-align: end;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+}
+.first h5{
+    font-size: 20px;
+    text-decoration: underline ;
+    text-decoration-color: orange;
+
+}
+.first >div{
+    width: 30%;
+}
+.leftsection{
+    
+    font-size: 3rem;
+    
+}
+.rightsection img{
+     width: 80%;
+     
+
+}
+.blue{
+    color: orange;
+}
+.secondsection{
+    display: flex;  
+    justify-content: space-between;
+    margin: 10 90px ;
+   
+    
+}
+.secondsection>div{
+     width: 60%;
+     margin: 120px;
+}
+.a img{
+   width:40% ;
+   float: left;
+   
+}
+.about{
+    font-size: 20px;
+    float: right;
+    width: 50%;
+   
+    
+}
+.about h3{
+    color: orange;
+}
+.cv{
+    background-color: orangered;
+    color: white;
+    border-color:orangered ;
+    margin: 10px;
+    padding: 5px;
+    font: weight 700 ;
+}
+.contact{
+    border-color: orangered;
+    background-color: white;
+    color: rgba(1, 1, 34, 0.603); 
+    margin: 10px;
+    padding: 5px;
+    font-weight: 700 ;
+}
+.thirdsec{
+     display: flex;
+     justify-content: space-between;
+     margin: 90px 80px;
+     padding: 70px;
+}
+.b{
+    width: 50%;
+}
+.c{
+    width: 50%;
+}
+.thirdsec h5{
+     font-size: 20px;
+     border:0.3px;
+     color: rgba(1, 1, 34, 0.603);  
+}
+.thirdsec h2{
+     font-size: 40px;
+     color:  rgba(1, 1, 34, 0.603); 
+}
+.thirdsec h3{
+    font-size: 40px;
+    color: orange;
+}
+.thirdsec>div{
+       color:  rgba(1, 1, 34, 0.603); 
+}  
+h2 span{
+    color : orange; 
+}
+.fourthsec{
+      display: flex;
+      justify-content: space-between;
+      margin: 80px 120px ;
+      padding: 40px ;
+} 
+.d{
+    width: 50%;
+}
+.e{
+    width: 50%;
+}
+.fourthsec h5{
+       font-size: 20px;
+       border-radius: 1px;
+       color:  rgba(1, 1, 34, 0.603);
+
+}
+.fourthsec h1{
+          font-size: 50px;
+          font-weight: 700;
+          color:  rgba(1, 1, 34, 0.603);
+
+
+}
+.fourthsec h1 span{
+     color: orange;
+}
+.fourthsec h3{
+     color: orange;
+}
+.fivthsec{
+       display: flex;
+       justify-content: space-between;
+       margin:80px 80px ;
+       padding:70px ;
+}
+.f{
+    width: 50%;
+}
+ .g{
+    width: 40%;
+ }
+ .fivthsec h3{
+    color: rgb(255, 165, 0);
+ }
+ .fivthsec>div{
+        color:  rgba(1, 1, 34, 0.603);
+ }
+ .sixsec{
+     display: flex;
+     justify-content: space-between;
+     margin: 90px 80px ;
+ }
+ .h{
+    width: 50%;
+ }
+ .i{
+     width: 50%;
+     float: right;
+ }
+ .sixsec h3{
+    font-size: 20px;
+ }
+ .sixsec h2{
+      font-size: 30px;
+      font-weight: 900;
+      color: black;
+ }
+ .sixsec span{
+       color: orangered;
+ }
+        
