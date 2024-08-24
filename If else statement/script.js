@@ -1,4 +1,4 @@
-// q no 2
+// q no 1
 let marks=prompt("enter your marks(0-100):");
 // // let grade;
 if(marks>=80 && marks <=100){
@@ -19,7 +19,7 @@ else if(marks>=40 && marks <=49){
 else if (marks>=0 && marks <=40){
     console.log("Fail");
 }
-// q no 1
+// q no 2
 var acccounting =95;
 var statistics=85;
 var Ecnomics =55;
